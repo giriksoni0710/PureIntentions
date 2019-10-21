@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap');
+
+* {
+    font-family: 'Merriweather', serif;
+}
+
+img {
+
+    min-width: 100%;
+    height: auto;
+
+}
+
+
+
+/* Banner */
+
+
+.banner, .overlay {
+
+    height: 90vh;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.banner {
+
+    background-image: url('../assets/img/nature4.jpg');
+    background-repeat: repeat-y;
+    
+    background-size: cover;
+    background-position-x: 25%;
+
+    
+}
+
+.title {
+
+    font-weight: bold;
+
+}
+
+
+
+.overlay {
+
+    background-color: rgba(219, 214, 168, 0.5);
+    
+}
+
+.title {
+
+    padding-top: 40vh;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #007bfa;
+    
+    
+}
+
+desc {
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    top: 90%;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.fa-bars {
+  color:white;
+  font-size: 30px;
+}
+
+.nav-link:hover, .nav-link:active {
+
+    color: wheat;
+}
+
+
