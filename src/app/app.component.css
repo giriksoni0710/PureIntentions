@@ -72,7 +72,7 @@ desc {
 
 .navbar {
     width: 100%;
-    top: 90%;
+
 }
 
 .navbar .navbar-brand {
@@ -95,4 +95,18 @@ desc {
     color: wheat;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  /* About */
+
+
+  .about {
+
+    background-color: white;
+    height: 1000px;
+  }
 
